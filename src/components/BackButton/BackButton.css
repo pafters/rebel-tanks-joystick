@@ -1,0 +1,26 @@
+.backBtn {
+    width: 14vh;
+    height: 12vh;
+    border: solid #fff0;
+    background-color: #d24bfd;
+    border-radius: 0px 10vh 10vh 0px;
+    display: flex;
+    background-image: url(../../assets/backBtnIcon.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #3c214e;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 1%;
+}
+
+.backBtn:active {
+    outline: solid 1.4vh #ffe7ff;
+    background-image: url(../../assets/backBtnIcon-active.png);
+    outline-offset: -1px;
+}
+
+.backBtnIcon:active {
+    color: #ffe7ff;
+}

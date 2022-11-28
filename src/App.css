@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  font-size: 4vh;
+}
+
+button {
+  font-family: 'Merriweather', serif;
+  font-size: 4vh;
+}
+
+.rotateContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+
+}

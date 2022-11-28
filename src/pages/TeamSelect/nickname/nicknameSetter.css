@@ -1,0 +1,42 @@
+.nicknameSetterOuter {
+    width: 96%;
+    height: 10%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5vh;
+    background-color: #8a64d3;
+    position: fixed;
+    bottom: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.nicknameOutput {
+    position: fixed;
+    left: 4vw;
+}
+
+.switchNicknameBtn {
+    border-radius: 50%;
+    width: 10vh;
+    border: 1vh solid #ffffff;
+    position: fixed;
+    height: 10%;
+    right: 0;
+    margin-right: 4%;
+    background-color: #fff0;
+}
+
+.switchNicknameBtn:active {
+    border: solid 1vh #d24bfd;
+    outline: 1.4vh solid #ffffff;
+    color: #d24bfd;
+    outline-offset: -1px;
+}
+
+.switchNicknameBtn svg:active {
+    
+    color: #ffe7ff;
+
+}
